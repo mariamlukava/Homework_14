@@ -7,7 +7,6 @@ text.textContent = "ვენეცია ვენეტოს რეგიო�
 text.style.color = "#ffff00";
 text.style.fontSize = "20px";
 
-
 let circle = document.createElement("span");
 let box = document.querySelector(".box");
 box.appendChild(circle);
@@ -18,7 +17,6 @@ circle.addEventListener("mouseover", () => {
 circle.addEventListener("mouseout", () => {
     circle.style.backgroundColor = "yellow";
 })
-
 
 let button = document.createElement("button");
 box.appendChild(button);
@@ -33,8 +31,3 @@ button.addEventListener("click", () => {
         circle.style.display = "block";
     }
 });
-
-
-
-
-
